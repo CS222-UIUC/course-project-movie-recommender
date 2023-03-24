@@ -11,7 +11,6 @@ def clicked():
     btn['text'] = 'blank'
     btn['bg'] = 'white'
     lbl2 = Label(root, text="Random")
-    lbl2.grid()
 
 
 btn = Button(root, text="blank", fg="white", bg="red", command=clicked)
