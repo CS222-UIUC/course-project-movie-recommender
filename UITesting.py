@@ -20,6 +20,15 @@ def clicked():
     lbl2 = Label(root, text="Test Label")
     lbl2.grid()
 
+# will take user input when button is clicked
+
+
+def question1():
+    root.withdraw()
+    # the input dialog
+    name = simpledialog.askstring(
+        title="Test", prompt="What's your Name?:")
+
 
 # changes backgound color
 root.configure(bg='lightblue')
@@ -27,16 +36,9 @@ root.configure(bg='lightblue')
 btn = Button(root, text="blank", fg="white", bg="red", command=clicked)
 btn.grid(column=1, row=0)
 
-# input test
-
-
-root.withdraw()
-# the input dialog
-USER_INP = simpledialog.askstring(title="Test",
-                                  prompt="What's your Name?:")
-
-# check it out
-# print("Hello", USER_INP)
+# ask user for input
+quest1 = Button(root, text="input", fg="white", bg="orange", command=question1)
+quest1.grid(column=4, row=0)
 
 
 root.mainloop()
