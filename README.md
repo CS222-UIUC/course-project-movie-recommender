@@ -1,5 +1,9 @@
 # Movie-Recommender
 
+
+<img width="1010" alt="Screen Shot 2023-05-04 at 12 02 13 PM" src="https://user-images.githubusercontent.com/98042100/236275046-77f478f5-9386-42b7-9c1e-f7b13c6f84ed.png">
+
+
 (1) Summary of the presentation: 
 
 This presentation is about introducing the project “movie recommender” we did during this semester. The purpose of this project was to recommend movies by recollecting the user’s movie taste. There are different technical approaches used in this project that are mostly related to python (pandas) library for extracting the data and additionally using python to create a user interface, which visually requests the user for their input and output. By making the interface, it is actually possible for users to read the questions that we have provided and see our movie preferences that we provided to the user. 
