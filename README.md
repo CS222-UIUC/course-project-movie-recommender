@@ -10,7 +10,7 @@ There are two big processes for creating a movie recommender. First of all, it w
 
 (3) Provides reproducible installation instructions: 
 
-<img width="1010" alt="Screen Shot 2023-05-04 at 12 02 13 PM" src="https://user-images.githubusercontent.com/98042100/236275193-07f0f53e-db25-45a1-8edf-412dc67c50de.png">
+<img width="1018" alt="Screen Shot 2023-05-04 at 10 41 16 PM" src="https://user-images.githubusercontent.com/98042100/236373352-0682dc7c-3839-487f-9566-0c507f851b05.png">
 
 We chose to use Python as our programming language for this project. For creating a movie recommendation system, we have first found the csv file for accessing the data. We have been searching for reliable files that we can use for this project. Then, we have been using the Pandas library to create some functions we need for extracting the data. The functions each were used to accumulate the relation between the movies. Afterwards, we were able to operate a program using the data. We also have created a user interface later to display the input and output visually. We also have been using python for creating the user interface since we knew that we needed to merge the data to the interface. Finally, we have merged the data we have extracted to the user interface we have created. 
 
